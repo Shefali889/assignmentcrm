@@ -1,0 +1,176 @@
+.sections {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  
+  .sectionsc1,
+  .sectionsc2,
+  .sectionsc3 {
+    padding: 10px 5px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .sectionsc1 {
+    padding: 0px;
+    background-color: #e9ecef;
+  }
+  
+  .sectionsc1 p {
+    cursor: pointer;
+    font-size: 13px;
+    padding: 20px;
+    cursor: pointer;
+  }
+  
+  .sectionsinactive {
+    color: #343a40;
+    background-color: transparent;
+  }
+  
+  .sectionsactive {
+    background-color: white;
+    border-bottom: 3px solid #1170ca;
+  }
+  
+  .sectionsactive p {
+    color: #1170ca;
+    background-color: transparent;
+  }
+  
+  .sectionsc2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+  }
+  
+  .sectionsassigned-job {
+    font-size: 13px;
+    font-weight: 600;
+    color: #343a40;
+  }
+  
+  .sectionsc2-buttons {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .sectionsc2-button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    background-color: #2570ca;
+    color: white;
+    cursor: pointer;
+    font-size: 13px;
+  }
+  
+  .sectionsc2-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .sectionsc2-button1 {
+    padding: 10px 20px;
+    border: 1px solid #343a40;
+    border-radius: 4px;
+    background-color: white;
+    color: #343a40;
+    font-weight: 600;
+    cursor: pointer;
+    font-size: 13px;
+  }
+  
+  .sectionsc3 {
+    flex-direction: column;
+  }
+  
+  .sectionsc3 .sectionsrow {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 5px;
+    border: 1px solid #eee;
+    margin: 5px;
+  }
+  
+  .sectionsavatar-info {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .sectionsjob-info {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .sectionsjob-title {
+    font-size: 13px;
+    font-weight: 600;
+    color: black;
+  }
+  
+  .sectionscompany-name {
+    font-size: 14px;
+    color: #868e96;
+  }
+  
+  .sectionscandidate-info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+  }
+  
+  .sectionscandidate-name {
+    font-size: 14px;
+    color: #495057;
+  }
+  
+  .sectionsdate {
+    font-size: 14px;
+    color: #495057;
+  }
+  
+  .sectionsassigned-btn,
+  .sectionsview-files-btn {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+  }
+  
+  .sectionsassigned-btn {
+    background-color: #f8f9fa;
+    color: #495057;
+  }
+  
+  .sectionsassigned-btn:hover {
+    background-color: #fff;
+  }
+  
+  .sectionsview-files-btn {
+    background-color: #fff;
+    color: #495057;
+    border: 1px solid #49505720;
+  }
+
+  .sectionsavataricon{
+    width: 40px;
+    height: 40px;
+  }
+  
+  @media (max-width: 600px) {
+    .sectionsc1 {
+      padding: 0px;
+      background-color: #e9ecef;
+      min-width: 300px;
+      display: flex;
+      flex-wrap: wrap;
+    }
+  }
+  

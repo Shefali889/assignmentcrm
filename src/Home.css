@@ -1,0 +1,22 @@
+.home {
+    background-color: white;
+    min-height: 100vh;
+    /* Ensure this covers the full height of the viewport */
+    display: flex;
+    flex-direction: row;
+}
+
+.right {
+    flex: 1;
+    width: 100%;
+}
+
+.rightIn {
+    display: flex;
+}
+
+@media (max-width: 1100px) {
+    .rightIn {
+        flex-direction: column;
+    }
+}

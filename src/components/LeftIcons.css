@@ -1,0 +1,18 @@
+.leftIconsTray {
+    background-color: #143E6F;
+    min-width: 50px;
+    width: 50px;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    align-items: center;
+    padding: 20px 0;
+  }
+  
+  .lefticons {
+    color: #fff;
+    width: 18px; /* Adjust size as needed */
+    height: 18px; /* Adjust size as needed */
+  }
+  
